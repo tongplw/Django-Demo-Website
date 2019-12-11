@@ -1,0 +1,16 @@
+just note
+
+vagrant up --> create .vagrant from vagrant file
+vagrant ssh --> activate vagrant
+
+cd /vagrant --> change directory
+
+python -m venv ~/env --> create virtual environment
+source ~/env/bin/activate --> activate virtual environment
+
+pip install -r requirements.txt --> pip install all requirements
+django-admin.py startproject profiles_project . --> create new project
+python manage.py startapp profiles_api --> create new app
+
+python manage.py runserver 0.0.0.0:8000 --> run a server
+http://127.0.0.1:8000/ --> local host address
