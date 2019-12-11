@@ -14,3 +14,5 @@ python manage.py startapp profiles_api --> create new app
 
 python manage.py runserver 0.0.0.0:8000 --> run a server
 http://127.0.0.1:8000/ --> local host address
+
+python manage.py makemigrations profiles_api
