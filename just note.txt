@@ -16,8 +16,11 @@ python manage.py runserver 0.0.0.0:8000 --> run a server
 http://127.0.0.1:8000/ --> local host address
 
 python manage.py makemigrations profiles_api
-python manage.py createsuperuser
+python manage.py createsuperuser --> just like create a admin
 
-email: bangkok.tong@gmail.com
-user: tongplw
-password: password123
+  email: bangkok.tong@gmail.com
+  user: tongplw
+  password: password123
+
+Admin can access the website by appending "/admin"
+http://127.0.0.1:8000/admin
