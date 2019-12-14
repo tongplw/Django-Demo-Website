@@ -24,3 +24,6 @@ python manage.py createsuperuser --> just like create a admin
 
 Admin can access the website by appending "/admin"
 http://127.0.0.1:8000/admin
+
+python manage.py makemigrations
+python manage.py migrate
